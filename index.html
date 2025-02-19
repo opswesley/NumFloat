@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NumFloat</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/891/891175.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="theme-toggle">
+    <button id="toggle-theme">
+      <span id="theme-icon">☀️</span>
+    </button>
+  </div>
+  <div class="container">
+    <div class="left-section">
+      <div class="description">
+        <h1 id="calculator-title">NumFloat</h1>
+        <p id="calculator-description">
+          Uma calculadora simples para operações básicas como soma, subtração, multiplicação e divisão.
+        </p>
+      </div>
+      <div class="tutorial">
+        <h2>O Que Foi Feito?</h2>
+        <p id="tutorial-text">Realize uma operação para ver a explicação aqui!</p>
+      </div>
+    </div>
+    <div class="calculator">
+      <div class="display">
+        <input type="text" id="display" readonly>
+      </div>
+      <div class="buttons" id="basic-buttons">
+        <button class="btn" data-value="7">7</button>
+        <button class="btn" data-value="8">8</button>
+        <button class="btn" data-value="9">9</button>
+        <button class="btn operator" data-value="/">÷</button>
+        <button class="btn" data-value="4">4</button>
+        <button class="btn" data-value="5">5</button>
+        <button class="btn" data-value="6">6</button>
+        <button class="btn operator" data-value="*">×</button>
+        <button class="btn" data-value="1">1</button>
+        <button class="btn" data-value="2">2</button>
+        <button class="btn" data-value="3">3</button>
+        <button class="btn operator" data-value="-">-</button>
+        <button class="btn" data-value="0">0</button>
+        <button class="btn" data-value=".">.</button>
+        <button class="btn equal" data-value="=">=</button>
+        <button class="btn operator" data-value="+">+</button>
+        <button class="btn clear" data-value="C">C</button>
+        <button id="activate-scientific" class="mode-button">Modo Científico</button>
+      </div>
+      <div class="buttons hidden" id="advanced-buttons">
+        <button class="btn" data-value="7">7</button>
+        <button class="btn" data-value="8">8</button>
+        <button class="btn" data-value="9">9</button>
+        <button class="btn operator" data-value="/">÷</button>
+        <button class="btn" data-value="4">4</button>
+        <button class="btn" data-value="5">5</button>
+        <button class="btn" data-value="6">6</button>
+        <button class="btn operator" data-value="*">×</button>
+        <button class="btn" data-value="1">1</button>
+        <button class="btn" data-value="2">2</button>
+        <button class="btn" data-value="3">3</button>
+        <button class="btn operator" data-value="-">-</button>
+        <button class="btn" data-value="0">0</button>
+        <button class="btn" data-value=".">.</button>
+        <button class="btn equal" data-value="=">=</button>
+        <button class="btn operator" data-value="+">+</button>
+        <button class="btn advanced" data-value="sqrt">√</button>
+        <button class="btn advanced" data-value="pow">x²</button>
+        <button class="btn advanced" data-value="sin">sin</button>
+        <button class="btn advanced" data-value="cos">cos</button>
+        <button class="btn advanced" data-value="tan">tan</button>
+        <button class="btn clear" data-value="C">C</button>
+        <button id="activate-basic" class="mode-button">Modo Básico</button>
+      </div>
+    </div>
+    <div class="right-section">
+      <div class="history">
+        <h3>Histórico</h3>
+        <ul id="history-list"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -39,7 +39,7 @@ NumFloat is a responsive and modern calculator designed for both simplicity and 
 *NumFloat in Scientific Mode (Dark Theme)*
 
 ### Example Usage
-![Example](https://i.postimg.cc/cLCcwmG7/image.png)  
+![Example](https://i.postimg.cc/FRvvY1kS/image.png)  
 *NumFloat in Action*
 
 #### License
@@ -86,7 +86,7 @@ O NumFloat é uma calculadora responsiva e moderna projetada tanto para simplici
 *NumFloat no Modo Científico (Tema Escuro)*
 
 #### Exemplo em Uso
-![Exemplo](https://i.postimg.cc/cLCcwmG7/image.png)  
+![Exemplo](https://i.postimg.cc/FRvvY1kS/image.png)  
 *NumFloat em Ação*
 
 #### Licença

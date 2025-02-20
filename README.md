@@ -91,9 +91,3 @@ O NumFloat é uma calculadora responsiva e moderna projetada tanto para simplici
 
 #### Licença
 Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
-
----
-
-### Additional Notes
-- Replace `light-mode-basic.png`, `light-mode-scientific.png`, `dark-mode-basic.png`, and `dark-mode-scientific.png` with actual screenshots of your application.
-- Ensure the images are placed in the same directory as the `README.md` file or update the paths accordingly.

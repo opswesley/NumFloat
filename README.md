@@ -38,9 +38,18 @@ NumFloat is a responsive and modern calculator designed for both simplicity and 
 ![Dark Mode - Scientific](https://i.postimg.cc/05YHZcM7/image.png)  
 *NumFloat in Scientific Mode (Dark Theme)*
 
-### Example Usage
+#### Example Usage
 ![Example](https://i.postimg.cc/FRvvY1kS/image.png)  
 *NumFloat in Action*
+
+#### How It Was Made
+NumFloat was built using the following technologies and tools:
+- **HTML5**: For structuring the content and layout.
+- **CSS3**: For styling, animations, and responsive design.
+- **JavaScript**: For implementing the calculator's logic, interactive features, and dynamic behavior.
+- **No External Libraries**: The project does not rely on any external libraries or frameworks, ensuring lightweight performance.
+- **Responsive Design**: Media queries and flexible layouts were used to ensure compatibility across devices.
+- **Dark/Light Mode**: Implemented using CSS variables and JavaScript for theme toggling.
 
 #### License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
@@ -88,6 +97,15 @@ O NumFloat é uma calculadora responsiva e moderna projetada tanto para simplici
 #### Exemplo em Uso
 ![Exemplo](https://i.postimg.cc/FRvvY1kS/image.png)  
 *NumFloat em Ação*
+
+#### Como Foi Feito
+O NumFloat foi desenvolvido utilizando as seguintes tecnologias e ferramentas:
+- **HTML5**: Para estruturar o conteúdo e o layout.
+- **CSS3**: Para estilização, animações e design responsivo.
+- **JavaScript**: Para implementar a lógica da calculadora, recursos interativos e comportamento dinâmico.
+- **Sem Bibliotecas Externas**: O projeto não depende de bibliotecas ou frameworks externos, garantindo um desempenho leve.
+- **Design Responsivo**: Consultas de mídia e layouts flexíveis foram usados para garantir compatibilidade em diferentes dispositivos.
+- **Modos Claro/Escuro**: Implementado usando variáveis CSS e JavaScript para alternar entre os temas.
 
 #### Licença
 Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
